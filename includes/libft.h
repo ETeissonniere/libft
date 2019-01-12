@@ -5,5 +5,6 @@
 #include "memory/ft_bzero.h"
 #include "memory/ft_memcpy.h"
 #include "memory/ft_memccpy.h"
+#include "memory/ft_memmove.h"
 
 #endif

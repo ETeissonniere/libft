@@ -10,7 +10,8 @@ SOURCES = \
 		  srcs/memory/ft_memset.c  \
 		  srcs/memory/ft_bzero.c   \
 		  srcs/memory/ft_memcpy.c  \
-		  srcs/memory/ft_memccpy.c
+		  srcs/memory/ft_memccpy.c \
+		  srcs/memory/ft_memmove.c
 OBJECTS = $(SOURCES:.c=.o)
 
 HEADERS = includes
