@@ -2,6 +2,7 @@
 #define LIBFT_H
 
 #include <string.h>
+#include <stdlib.h>
 
 void ft_bzero(void *s, size_t n);
 void *ft_memccpy(void *dst, const void *src, int c, size_t n);
@@ -12,5 +13,6 @@ void *ft_memchr(const void *s, int c, size_t n);
 int   ft_memcmp(const void *s1, const void *s2, size_t n);
 
 int   ft_strlen(const char *s);
+char *ft_strdup(const char *s1);
 
 #endif
