@@ -8,7 +8,8 @@ NAME     = libft.a
 
 SOURCES = \
 		  srcs/ft_memset.c \
-		  srcs/ft_bzero.c
+		  srcs/ft_bzero.c  \
+		  srcs/ft_memcpy.c
 OBJECTS = $(SOURCES:.c=.o)
 
 HEADERS = includes
