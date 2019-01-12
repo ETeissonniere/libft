@@ -18,7 +18,8 @@ SOURCES = \
 		  srcs/strings/ft_strdup.c  \
 		  srcs/strings/ft_strcpy.c  \
 		  srcs/strings/ft_strncpy.c \
-		  srcs/strings/ft_strcat.c
+		  srcs/strings/ft_strcat.c  \
+		  srcs/strings/ft_strncat.c
 OBJECTS = $(SOURCES:.c=.o)
 
 HEADERS = includes
