@@ -17,7 +17,7 @@ OBJECTS = $(SOURCES:.c=.o)
 HEADERS = includes
 
 %.o: %.c
-	$(CC) $(CFLAGS) -I$(HEADERS) -fPIC -c -o $@ $<
+	$(CC) $(CFLAGS) -I$(HEADERS) -c -o $@ $<
 
 $(NAME): $(OBJECTS)
 	$(AR) rcs $(NAME) $(OBJECTS)
