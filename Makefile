@@ -7,10 +7,10 @@ CFLAGS  += -Wall -Werror -Wextra -ansi -pedantic
 NAME     = libft.a
 
 SOURCES = \
-		  srcs/ft_memset.c  \
-		  srcs/ft_bzero.c   \
-		  srcs/ft_memcpy.c  \
-		  srcs/ft_memccpy.c
+		  srcs/memory/ft_memset.c  \
+		  srcs/memory/ft_bzero.c   \
+		  srcs/memory/ft_memcpy.c  \
+		  srcs/memory/ft_memccpy.c
 OBJECTS = $(SOURCES:.c=.o)
 
 HEADERS = includes

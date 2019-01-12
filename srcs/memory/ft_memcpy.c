@@ -1,4 +1,4 @@
-#include "ft_memcpy.h"
+#include "memory/ft_memcpy.h"
 
 void *ft_memcpy(void *dst, const void *src, size_t n) {
     if (n) {
