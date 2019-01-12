@@ -15,7 +15,8 @@ SOURCES = \
 		  srcs/memory/ft_memchr.c  \
 		  srcs/memory/ft_memcmp.c  \
 		  srcs/strings/ft_strlen.c \
-		  srcs/strings/ft_strdup.c
+		  srcs/strings/ft_strdup.c \
+		  srcs/strings/ft_strcpy.c
 OBJECTS = $(SOURCES:.c=.o)
 
 HEADERS = includes
