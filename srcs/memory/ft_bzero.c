@@ -1,4 +1,4 @@
-#include "memory/ft_bzero.h"
+#include "libft.h"
 
 void ft_bzero(void *s, size_t n) {
     if (n) {

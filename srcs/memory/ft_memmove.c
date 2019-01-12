@@ -1,5 +1,4 @@
-#include "memory/ft_memcpy.h"
-#include "memory/ft_memmove.h"
+#include "libft.h"
 
 /*
 ** Memcpy copies data from the beginning of the buffers,
