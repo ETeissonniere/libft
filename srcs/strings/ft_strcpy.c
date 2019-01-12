@@ -9,7 +9,7 @@ static void __copy_str(char *dst, const char *src) {
     while (*src)
         *(dst++) = *(src++);
 
-    *(dst++) = '\0';
+    *dst = '\0';
 }
 
 char *ft_strcpy(char *dst, const char *src) {
