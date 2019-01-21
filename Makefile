@@ -22,7 +22,8 @@ SOURCES = \
 		  srcs/strings/ft_strncat.c \
 		  srcs/strings/ft_strlcat.c \
 		  srcs/strings/ft_strchr.c  \
-		  srcs/strings/ft_strrchr.c
+		  srcs/strings/ft_strrchr.c \
+		  srcs/strings/ft_strstr.c
 OBJECTS = $(SOURCES:.c=.o)
 
 HEADERS = includes
