@@ -31,6 +31,7 @@ SOURCES = \
 		  srcs/strings/ft_strncmp.c \
 		  srcs/strings/ft_strnew.c  \
 		  srcs/strings/ft_strdel.c  \
+		  srcs/strings/ft_strclr.c  \
 		  srcs/strings/ft_isalpha.c \
 		  srcs/strings/ft_isdigit.c \
 		  srcs/strings/ft_isalnum.c \
