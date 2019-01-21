@@ -37,6 +37,7 @@ char  *ft_strnew(size_t size);
 void   ft_strdel(char **ap);
 void   ft_strclr(char *s);
 void   ft_striter(char *s, void (*f)(char *));
+void   ft_striteri(char *s, void (*f)(unsigned int, char *));
 int    ft_isalpha(int c);
 int    ft_isdigit(int c);
 int    ft_isascii(int c);
