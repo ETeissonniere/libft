@@ -24,7 +24,7 @@ int ft_atoi(const char *str) {
         if (*(str++) == '-')
             coeff = -1;
 
-    while (*str >= '0' && *str <= '9')
+    while (ft_isdigit(*str))
         res = (res * 10) + (*(str++) - '0');
     
     return res * coeff;
