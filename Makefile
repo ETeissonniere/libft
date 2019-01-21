@@ -26,7 +26,15 @@ SOURCES = \
 		  srcs/strings/ft_strstr.c  \
 		  srcs/strings/ft_strnstr.c \
 		  srcs/strings/ft_strcmp.c  \
-		  srcs/strings/ft_strncmp.c
+		  srcs/strings/ft_strncmp.c \
+		  srcs/strings/ft_isalpha.c \
+		  srcs/strings/ft_isdigit.c \
+		  srcs/strings/ft_isalnum.c \
+		  srcs/strings/ft_isascii.c \
+		  srcs/strings/ft_isprint.c \
+		  srcs/strings/ft_toupper.c \
+		  srcs/strings/ft_tolower.c \
+		  srcs/numbers/ft_atoi.c
 OBJECTS = $(SOURCES:.c=.o)
 
 HEADERS = includes
