@@ -29,6 +29,7 @@ SOURCES = \
 		  srcs/strings/ft_strnstr.c \
 		  srcs/strings/ft_strcmp.c  \
 		  srcs/strings/ft_strncmp.c \
+		  srcs/strings/ft_strnew.c  \
 		  srcs/strings/ft_isalpha.c \
 		  srcs/strings/ft_isdigit.c \
 		  srcs/strings/ft_isalnum.c \
