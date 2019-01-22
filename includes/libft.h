@@ -2,20 +2,6 @@
 # define LIBFT_H
 
 # include <string.h>
-# include <stdlib.h>
-# include <unistd.h>
-
-# ifndef INT_MAX
-#  define SHRT_MAX		0x7fff
-#  define SHRT_MIN		(-SHRT_MAX - 1)
-#  define USHRT_MAX		0xffff
-#  define INT_MAX		0x7fffffff
-#  define INT_MIN		(-INT_MAX - 1)
-#  define UINT_MAX		0xffffffff
-#  define LONG_MAX		0x7fffffffffffffff
-#  define LONG_MIN		(-LONG_MAX - 1)
-#  define ULONG_MAX		0xffffffffffffffff
-# endif
 
 /*
 ** Memory
@@ -75,7 +61,7 @@ int    ft_atoi(const char *str);
 char  *ft_itoa(int n);
 
 /*
-** Iinput / Output
+** Input / Output
 */
 void   ft_putchar(char c);
 void   ft_putchar_fd(char c, int fd);

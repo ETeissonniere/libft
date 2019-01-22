@@ -1,3 +1,5 @@
+#include <stdlib.h>
+
 #include "libft.h"
 
 static int __split_nb_words(char const *s, char c) {
