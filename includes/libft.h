@@ -82,5 +82,6 @@ void    ft_putnbr_fd(int n, int fd);
 ** Lists
 */
 t_list *ft_lstnew(void const *content, size_t content_size);
+void    ft_lstdelone(t_list **alst, void (*del)(void *, size_t));
 
 #endif
