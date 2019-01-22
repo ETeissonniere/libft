@@ -1,11 +1,6 @@
 #include "libft.h"
 
-static int __is_blank(char c) {
-    return
-        c == ' '  ||
-        c == '\n' ||
-        c == '\t';
-}
+#define SHOULD_IGNORE(c) ft_isblank(c) || c == '\n'
 
 char *ft_strtrim(char const *s) {
     size_t size;
@@ -14,14 +9,14 @@ char *ft_strtrim(char const *s) {
     if (!s)
         return NULL;
 
-    while (__is_blank(*s))
+    while (SHOULD_IGNORE(*s))
         s++;
 
     if (*s == '\0')
         return ft_strnew(0);
 
     size = ft_strlen(s) - 1;
-    while (size > 0 && __is_blank(s[size]))
+    while (size > 0 && SHOULD_IGNORE(s[size]))
         size--;
 
     size += 1;
