@@ -53,7 +53,8 @@ SOURCES = \
 		  srcs/numbers/ft_atoi.c     \
 		  srcs/numbers/ft_power.c    \
 		  srcs/numbers/ft_itoa.c     \
-		  srcs/io/ft_putchar.c
+		  srcs/io/ft_putchar.c       \
+		  srcs/io/ft_putstr.c
 OBJECTS = $(SOURCES:.c=.o)
 
 HEADERS = includes
