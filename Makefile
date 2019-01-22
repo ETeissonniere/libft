@@ -42,6 +42,7 @@ SOURCES = \
 		  srcs/strings/ft_strjoin.c  \
 		  srcs/strings/ft_strtrim.c  \
 		  srcs/strings/ft_strsplit.c \
+		  srcs/strings/ft_strrev.c \
 		  srcs/strings/ft_isalpha.c  \
 		  srcs/strings/ft_isdigit.c  \
 		  srcs/strings/ft_isalnum.c  \
@@ -49,7 +50,9 @@ SOURCES = \
 		  srcs/strings/ft_isprint.c  \
 		  srcs/strings/ft_toupper.c  \
 		  srcs/strings/ft_tolower.c  \
-		  srcs/numbers/ft_atoi.c
+		  srcs/numbers/ft_atoi.c     \
+		  srcs/numbers/ft_power.c    \
+		  srcs/numbers/ft_itoa.c
 OBJECTS = $(SOURCES:.c=.o)
 
 HEADERS = includes
