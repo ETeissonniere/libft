@@ -3,6 +3,7 @@
 
 #include <string.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 /*
 ** Memory
@@ -60,5 +61,10 @@ int    ft_tolower(int c);
 int    ft_power(int n, int p);
 int    ft_atoi(const char *str);
 char  *ft_itoa(int n);
+
+/*
+** Iinput / Output
+*/
+void   ft_putchar(char c);
 
 #endif
