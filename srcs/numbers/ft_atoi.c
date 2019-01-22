@@ -2,11 +2,10 @@
 
 static int __should_ignore(char str) {
     return
-        str == ' '  ||
-        str == '\t' ||
-        str == '\n' ||
-        str == '\v' ||
-        str == '\r' ||
+        ft_isblank(str) ||
+        str == '\n'     ||
+        str == '\v'     ||
+        str == '\r'     ||
         str == '\f';
 }
 
