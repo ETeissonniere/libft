@@ -1,5 +1,6 @@
 #include "libft.h"
 
+#include <stdio.h>
 static void __compute_size(int n, int *size) {
     while (n /= 10)
         (*size)++;
@@ -21,11 +22,11 @@ char *ft_itoa(int n) {
     __compute_size(n, &size);
     size += sign;
 
-    as_str = ft_strnew(size);
+    as_str = ft_strnew(--size);
     if (as_str == NULL)
         return NULL;
 
-    as_str[--size] = '\0';
+    as_str[size] = '\0';
 
     while (size--) {
         as_str[size] = (n % 10) + '0';
