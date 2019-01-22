@@ -12,7 +12,7 @@ static int __should_ignore(char str) {
 
 int ft_atoi(const char *str) {
     int coeff;
-    int res;
+    long res;
 
     coeff = 1;
     res = 0;
