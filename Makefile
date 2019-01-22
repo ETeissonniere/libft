@@ -50,6 +50,7 @@ SOURCES = \
 		  srcs/strings/ft_isprint.c  \
 		  srcs/strings/ft_toupper.c  \
 		  srcs/strings/ft_tolower.c  \
+		  srcs/strings/ft_isblank.c  \
 		  srcs/numbers/ft_atoi.c     \
 		  srcs/numbers/ft_power.c    \
 		  srcs/numbers/ft_itoa.c     \
