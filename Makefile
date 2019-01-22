@@ -56,7 +56,8 @@ SOURCES = \
 		  srcs/io/ft_putchar.c       \
 		  srcs/io/ft_putstr.c        \
 		  srcs/io/ft_putendl.c       \
-		  srcs/io/ft_putnbr.c
+		  srcs/io/ft_putnbr.c        \
+		  srcs/io/ft_putchar_fd.c
 OBJECTS = $(SOURCES:.c=.o)
 
 HEADERS = includes
