@@ -37,6 +37,7 @@ SOURCES = \
 		  srcs/strings/ft_strmap.c   \
 		  srcs/strings/ft_strmapi.c  \
 		  srcs/strings/ft_strequ.c   \
+		  srcs/strings/ft_strnequ.c  \
 		  srcs/strings/ft_isalpha.c  \
 		  srcs/strings/ft_isdigit.c  \
 		  srcs/strings/ft_isalnum.c  \
