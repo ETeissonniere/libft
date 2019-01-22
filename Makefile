@@ -65,7 +65,8 @@ SOURCES = \
 		  srcs/lists/ft_lstdelone.c  \
 		  srcs/lists/ft_lstdel.c     \
 		  srcs/lists/ft_lstadd.c     \
-		  srcs/lists/ft_lstiter.c
+		  srcs/lists/ft_lstiter.c    \
+		  srcs/lists/ft_lstmap.c
 OBJECTS = $(SOURCES:.c=.o)
 
 HEADERS = includes
