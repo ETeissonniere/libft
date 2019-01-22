@@ -42,7 +42,7 @@ SOURCES = \
 		  srcs/strings/ft_strjoin.c  \
 		  srcs/strings/ft_strtrim.c  \
 		  srcs/strings/ft_strsplit.c \
-		  srcs/strings/ft_strrev.c \
+		  srcs/strings/ft_strrev.c   \
 		  srcs/strings/ft_isalpha.c  \
 		  srcs/strings/ft_isdigit.c  \
 		  srcs/strings/ft_isalnum.c  \
