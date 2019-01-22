@@ -1,6 +1,5 @@
 #include "libft.h"
 
-#include <stdio.h>
 static void __compute_size(int n, int *size) {
     while (n /= 10)
         (*size)++;
